@@ -1,0 +1,13 @@
+{
+  "name": "your-app-name",
+  "description": "Your app description",
+  "repository": "https://github.com/modymesourceze/hemaya",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "scripts": {
+    "start": "python main.py"
+  }
+}
